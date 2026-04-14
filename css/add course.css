@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+
+nav{
+  width: 270%;
+height: 12vh;
+background-color: #007bff60;
+display:flex ;
+justify-content:space-between ;
+align-items: center;
+}
+:hover{
+    color: aquamarine;
+
+}
+:focus{
+color: blueviolet;
+}
+::selection{color: rgb(238, 255, 0); background-color: aliceblue; }
+body{background-image:url(../image/pngtree-above-view-of-colorful-background-with-computer-book-and-headphones-for-online-courses-and-elearning-photo-image_31602404.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment: fixed;
+width: 36.6vw;
+}
+
+
+
+.abc{
+    
+    height: 9vh;
+    width: 10vw;
+    position: relative;
+    left:9% ;
+    top:6vh;
+    color: #ffffff;
+    font-size:large;
+    font-weight: 200;
+
+    
+}
+.star{
+  height:12vh ;
+  width: 5vw;
+  background-color:#007bff60 ;
+  justify-content: center;
+  align-items: center;
+
+}
+.links{
+     height: 12vh;
+     width: 40%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+     
+
+
+
+}
+.star h2{
+  color: #ffffff;
+  font-size:x-large;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ margin-top: 35%;
+
+
+}
+.links a{
+  text-decoration: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  transition-duration: 0.5s;
+  
+
+}
+.link{
+   width: 9vw;
+  height: 8vh;
+  background-color:#007bff60 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #93c6fd 4px solid;
+  
+
+
+}
+.link:hover{
+   width: 9vw;
+  height: 8vh;
+  background-color: #007bffc9 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #93c6fd 4px solid;
+text-decoration: 0.5s;
+
+}
+
+
+form{
+    background-color:#007bff60 ;
+      position: relative;
+    left: 80%;
+   min-height:100vh;
+   width: 150wv;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+    
+    top: 5vh;
+
+}
+input{
+    border-radius: 10px;
+    height: 9vh;
+    width: 28vw;
+    background-color:rgb(158, 197, 255);
+    
+
+
+}
+
+ul{
+   list-style:none ;
+    line-height:7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+header{
+   color: #ffffff;
+   font-size: xx-large;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+
+
+}
+
+label{
+   color: #ffffff;
+   font-size: large;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 300;
+
+
+}
+
+:hover{
+    color: aquamarine;
+
+}
+
+@media (max-width: 767px) {
+   
+   body {height: 30%;
+   min-width:  30%;
+
+     }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+ 
+body{
+min-width: 50%;
+
+
+}
+
+}
