@@ -150,12 +150,59 @@ label{
 
 
 }
-@media (max-width: 767px) {
-   
-   body {height: 30%;
-   min-width:  30%;
+@media (max-width: 768px) {
 
-     }
+  body {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  h1, h2, h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  input[type="file"],
+  button {
+    width: 100%;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .preview {
+    width: 100%;
+  }
+
+  .info-panel {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+}
+
     
 }
 
