@@ -149,60 +149,40 @@ label{
 }
 @media (max-width: 768px) {
 
-  body {
-    padding: 10px;
-    font-size: 14px;
+  nav{
+    flex-direction: column;
+    height: auto;
   }
 
-  .container {
+  .links{
     width: 100%;
-    padding: 10px;
-  }
-
-  h1, h2, h3 {
-    font-size: 18px;
-    text-align: center;
-  }
-
-  canvas {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  input[type="file"],
-  button {
-    width: 100%;
-    margin: 5px 0;
-    font-size: 14px;
-  }
-
-  .controls {
-    display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .row {
-    flex-direction: column;
+  .link{
+    width: 80%;
+    height: auto;
+    padding: 10px;
   }
 
-  .col {
-    width: 100%;
-  }
-
-  .preview {
-    width: 100%;
-  }
-
-  .info-panel {
-    font-size: 13px;
-    line-height: 1.4;
-  }
 }
+[9:04 م، 2026/4/15] ⁦+20 12 82783381⁩: @media (max-width: 768px) {
 
-    
+  .home{
+    height: auto;
+    padding: 20px;
+  }
+
+  .message h1{
+    font-size: 20px;
+  }
+
+  .message h3{
+    font-size: 16px;
+  }
+
 }
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
  
 body{
