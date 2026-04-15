@@ -1,160 +1,112 @@
-*{margin: 0;
-padding: 0;
-border: 0;}
-
-.home{
-
-width: 100%;
-height: 100vh;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
-nav{width: 100%;
-height: 12vh;
-background-color: #007bff60;
-display:flex ;
-justify-content:space-between ;
-align-items: center;
-
-}
-
-:hover{
-    color: aquamarine;
-
-}
-:focus{
-color: blueviolet;
-}
-::selection{color: rgb(238, 255, 0); background-color: aliceblue; }
-.star{
-  height:12vh ;
-  width: 5vw;
-  background-color:#007bff60 ;
-  justify-content: center;
-  align-items: center;
-
-}
-.links{
-    height: 12vh;
-     width: 40%;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     
-     
-
-
-
-}
-.star h2{
-  color: #ffffff;
-  font-size:x-large;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 35%;
-
-
-}
-.links a{
-  text-decoration: none;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 600;
-  transition-duration: 0.5s;
-  
-
-}
-.link{
-   width: 9vw;
-  height: 8vh;
-  background-color:#007bff60 ;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: #93c6fd 4px solid;
-  
-
-
-}
-.link:hover{
-   width: 9vw;
-  height: 8vh;
-  background-color: #007bffc9 ;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: #93c6fd 4px solid;
-text-decoration: 0.5s;
-
-}
-
-
-
-.message{
-width: 100%;
-height: 88vh;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-
-}
- .message h1{font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-weight: bolder; font-size: xx-large;
-color: #319bff;
-font-size: xx-large;
-}
-
-.message h3{font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-weight:bolder;
-color: #000000fb;
-font-size: x-large;
-margin-top: 10px;
-
-}
-[9:03 م، 2026/4/15] ⁦+20 12 82783381⁩: @media (max-width: 768px) {
-
-  nav{
-    flex-direction: column;
-    height: auto;
-  }
-
-  .links{
+nav {
     width: 100%;
-    flex-direction: column;
+    height: auto;
+    min-height: 12vh;
+    background-color: #007bff60;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding: 10px 5%;
+    gap: 15px;
+}
+
+.star {
+    height: auto;
+    width: auto;
+    background-color: #007bff60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.star h2 {
+    color: #ffffff;
+    font-size: clamp(1.2rem, 5vw, 2rem); 
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.links {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
     gap: 10px;
-  }
-
-  .link{
-    width: 80%;
-    height: auto;
-    padding: 10px;
-  }
-
 }
- @media (max-width: 768px) {
 
-  .home{
+.link {
+    width: auto;
+    min-width: 80px;
     height: auto;
+    padding: 8px 12px;
+    background-color: #007bff60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #93c6fd 2px solid;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.link:hover {
+    background-color: #007bffc9;
+    transform: scale(1.05);
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: clamp(0.8rem, 3vw, 1rem);
+    white-space: nowrap;
+}
+
+.home {
+    
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.message {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     padding: 20px;
-  }
-
-  .message h1{
-    font-size: 20px;
-  }
-
-  .message h3{
-    font-size: 16px;
-  }
-
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
- 
-body{
-min-width: 50%;
-
-
+.message h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: clamp(1.8rem, 7vw, 3.5rem);
+    color: #319bff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
+.message h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: #000000fb;
+    font-size: clamp(1rem, 5vw, 1.8rem);
+    margin-top: 15px;
 }
 
 
