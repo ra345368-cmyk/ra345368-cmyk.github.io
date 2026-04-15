@@ -17,10 +17,8 @@ color:darkblue;
 color: blueviolet;
 }
 ::selection{color: rgb(238, 255, 0); background-color: aliceblue; }
-body{background-image:url(../image/pngtree-above-view-of-colorful-background-with-computer-book-and-headphones-for-online-courses-and-elearning-photo-image_31602404.jpg);
-background-repeat: no-repeat;
-background-size:cover;
-background-attachment: fixed;
+body{
+;
 width: 36.6vw;
 
 }
