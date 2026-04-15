@@ -109,5 +109,8 @@ nav {
     margin-top: 15px;
 }
 
-
+::selection {
+    color: rgb(238, 255, 0);
+    background-color: aliceblue;
+}
 
