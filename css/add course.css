@@ -162,13 +162,13 @@ label{
 
 }
 
-[9:03 م، 2026/4/15] ⁦+20 12 82783381⁩: @media (max-width: 768px) {
+ @media (max-width: 768px) {
 
   nav{
     flex-direction: column;
     height: auto;
   }
-
+  
   .links{
     width: 100%;
     flex-direction: column;
@@ -178,7 +178,12 @@ label{
   .link{
     width: 80%;
     height: auto;
-    padding: 10px;
+    padding: 10px;}
+    form{hieght:300px;
+        padding:0;
+         margen:0;
+        
+        }
   }
 
 }
